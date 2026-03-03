@@ -8,7 +8,6 @@ import ServicesSection from './components/sections/ServicesSection.vue'
 import ProjectsSection from './components/sections/ProjectsSection.vue'
 import StatsSection from './components/sections/StatsSection.vue'
 import TestimonialsSection from './components/sections/TestimonialsSection.vue'
-import ContactSection from './components/sections/ContactSection.vue'
 import LogoShowcase from './components/sections/LogoShowcase.vue'
 import Marquee from './components/sections/Marquee.vue'
 
