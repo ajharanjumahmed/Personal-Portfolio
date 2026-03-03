@@ -3,7 +3,7 @@ import heroImage from '/src/assets/heroImage.png';
 </script>
 
 <template>
-  <section>
+  <section id="Hero">
     <div class="parent">
       <div class="text">
         <div class="text-content">
@@ -98,8 +98,6 @@ section {
 
 .image {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
 .image img {

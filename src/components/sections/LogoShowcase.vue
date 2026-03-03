@@ -1,18 +1,26 @@
 <script setup>
 import logo1 from '/src/assets/logos/logo1.png';
-const logos = [logo1, logo1, logo1, logo1, logo1]
+import logo2 from '/src/assets/logos/lobuk-logo.png';
+import logo3 from '/src/assets/logos/IASDLE-White-Logo.png';
+import logo4 from '/src/assets/logos/nextstop-logo-transparent-1.png';
+
+
+const logos = [logo1, logo2, logo3, logo4, logo1, logo2, logo3, logo4]
 </script>
 
 <template>
   <section class="logo-section">
+    <div class="text">
+      <h1>Trusted By Top Companies</h1>
+    </div>
     <div class="logo-wrapper">
       <div class="logo-track">
-        <!-- First Set -->
+       
         <div class="logo" v-for="(logo, index) in logos" :key="'first'+index">
           <img :src="logo" alt="company logo" />
         </div>
 
-        <!-- Duplicate Set (for seamless loop) -->
+        
         <div class="logo" v-for="(logo, index) in logos" :key="'second'+index">
           <img :src="logo" alt="company logo" />
         </div>
@@ -22,6 +30,14 @@ const logos = [logo1, logo1, logo1, logo1, logo1]
 </template>
 
 <style scoped>
+
+.text{
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: clamp(1.2rem, 6vw, 1rem);
+
+}
+
 .logo-section {
   width: 100%;
   overflow: hidden;
@@ -57,7 +73,7 @@ const logos = [logo1, logo1, logo1, logo1, logo1]
   opacity: 1;
 }
 
-/* Animation */
+
 @keyframes scroll {
   from {
     transform: translateX(0);
@@ -67,11 +83,11 @@ const logos = [logo1, logo1, logo1, logo1, logo1]
   }
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .logo-track {
     gap: 40px;
-    animation-duration: 4s;
+    animation-duration: 5s;
   }
 
   .logo img {
@@ -79,7 +95,7 @@ const logos = [logo1, logo1, logo1, logo1, logo1]
   }
 }
 
-/* Pause on hover */
+
 .logo-section:hover .logo-track {
   animation-play-state: paused;
 }

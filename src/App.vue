@@ -10,6 +10,7 @@ import StatsSection from './components/sections/StatsSection.vue'
 import TestimonialsSection from './components/sections/TestimonialsSection.vue'
 import ContactSection from './components/sections/ContactSection.vue'
 import LogoShowcase from './components/sections/LogoShowcase.vue'
+import Marquee from './components/sections/Marquee.vue'
 
 </script>
 
@@ -21,6 +22,10 @@ import LogoShowcase from './components/sections/LogoShowcase.vue'
       <ToolsSection/>
       <ServicesSection/>
       <ProjectsSection/>
+      <TestimonialsSection/>
+      <StatsSection/>
+      <Marquee/>
+      <Footer/>
     </main>
 </template>
 

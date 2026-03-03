@@ -1,8 +1,8 @@
 <script setup>
   import UiUx from '/src/assets/uiux.png';
   import WordPress from '/src/assets/wordpress.png';
-  import PHP from '/src/assets/php.jpg';
-  import Branding from '/src/assets/branding.jpg';
+  import PHP from '/src/assets/php.png';
+  import Branding from '/src/assets/branding.png';
   import { ref } from 'vue';
 
   let selectedSection = ref(2);
@@ -14,7 +14,7 @@
 </script>
 
 <template>
-  <section>
+  <section id="Services">
     <div class="parent">
       <div class="child1">
         <div class="button">
@@ -35,7 +35,7 @@
           <div class="divider"></div>
           <div class="text">
             <h2>UI/UX Design</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
+            <p>I design intuitive and visually engaging user interfaces focused on delivering seamless user experiences. From wireframes to high-fidelity designs, I ensure every element is purposeful, user-centered, and aligned with your brand goals. </p>
           </div>
         </div>
         <div class="card" v-if="selectedSection==2">
@@ -45,7 +45,7 @@
           <div class="divider"></div>
           <div class="text">
             <h2>Wordpress Website Development</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
+            <p>I build modern, responsive, and high-performing WordPress websites tailored to your business needs. From custom themes to optimized layouts, I ensure a scalable, user-friendly, and easy-to-manage website that strengthens your online presence. </p>
           </div>
         </div>
         <div class="card" v-if="selectedSection==3">
@@ -55,7 +55,7 @@
           <div class="divider"></div>
           <div class="text">
             <h2>PHP Website Development</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
+            <p>I develop dynamic and secure web applications using PHP, focusing on clean architecture and efficient backend functionality. From custom features to full-scale systems, I build scalable solutions tailored to your business requirements.</p>
           </div>
         </div>
         <div class="card" v-if="selectedSection==4">
@@ -65,7 +65,7 @@
           <div class="divider"></div>
           <div class="text">
             <h2>Branding</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
+            <p>I craft cohesive brand identities that communicate your vision and values effectively. From logo design to complete visual systems, I create consistent, memorable branding that helps your business stand out and connect with its audience.</p>
           </div>
         </div>
       </div>
@@ -148,7 +148,7 @@ section {
   max-height: 300px;
   width: 100%;
   object-fit: cover;
-
+  border-radius: 10px;
 }
 
 .divider {
@@ -162,6 +162,10 @@ section {
   font-size: clamp(2rem, 6vw, 20px);
   font-weight: 400;
   margin-bottom: 10px;
+}
+
+.text p{
+  color: #ffffff71;
 }
 
 @media (max-width: 992px) {

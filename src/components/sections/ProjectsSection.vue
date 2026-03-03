@@ -1,9 +1,12 @@
 <script setup>
-import UiUx from '/src/assets/uiux.png';
+import ignitelab from '/src/assets/ignitelab.png';
+import pacmanGame from '/src/assets/pacmanGame.png';
+import turfManagementSystem from '/src/assets/turfManagementSystem.png';
+import iasdle from '/src/assets/iasdle.png';
 </script>
 
 <template>
-  <section>
+  <section id="Projects">
     <div class="parent">
       <div class="button">
         <p>Projects</p>
@@ -16,7 +19,7 @@ import UiUx from '/src/assets/uiux.png';
         <div class="card">
 
           <div class="card-image">
-            <img :src="UiUx" alt="Project Image">
+            <img :src="ignitelab" alt="Project Image">
           </div>
 
           <div class="card-content">
@@ -26,17 +29,14 @@ import UiUx from '/src/assets/uiux.png';
               <span>Wordpress Development</span>
             </div>
 
-            <h2>IASOLE Website Design & Development</h2>
+            <h2>Ignitelab Website Design & Development</h2>
 
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi
+              Ignitelab is a video editing agency specialized in editing YouTube videos. I designed and created a clean and professional website for them using WordPress.
             </p>
 
             <div class="buttons">
-              <a href="#" class="btn">Live Website</a>
-              <a href="#" class="btn">Github</a>
+              <a href="https://ignitelabbd.com/" class="btn">Live Website</a>
             </div>
 
           </div>
@@ -45,27 +45,24 @@ import UiUx from '/src/assets/uiux.png';
         <div class="card">
 
           <div class="card-image">
-            <img :src="UiUx" alt="Project Image">
+            <img :src="turfManagementSystem" alt="Project Image">
           </div>
 
           <div class="card-content">
 
             <div class="tags">
               <span>UI/UX Design</span>
-              <span>Wordpress Development</span>
+              <span>PHP Development</span>
             </div>
 
-            <h2>IASOLE Website Design & Development</h2>
+            <h2>Book My Turf - A Turf Management System</h2>
 
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi
+              A comprehensive Turf Management System built to simplify indoor ground bookings. I developed a clean, user-friendly web application that enables efficiently book and manage grounds, time slots, bookings, and payments.
             </p>
 
             <div class="buttons">
-              <a href="#" class="btn">Live Website</a>
-              <a href="#" class="btn">Github</a>
+              <a href="https://github.com/ajharanjumahmed/Book-My-Turf" class="btn">Github</a>
             </div>
 
           </div>
@@ -73,7 +70,33 @@ import UiUx from '/src/assets/uiux.png';
         <div class="card">
 
           <div class="card-image">
-            <img :src="UiUx" alt="Project Image">
+            <img :src="pacmanGame" alt="Project Image">
+          </div>
+
+          <div class="card-content">
+
+            <div class="tags">
+              <span>Java</span>
+              <span>Game Development</span>
+            </div>
+
+            <h2>Pacman Game Development</h2>
+
+            <p>
+              This project implements the fundamental mechanics of Pac-Man: navigating a maze, collecting all pellets, and avoiding ghosts. Built solely in Java using the Swing toolkit
+            </p>
+
+            <div class="buttons">
+              <a href="https://github.com/ajharanjumahmed/Pacman-Game-using-Java" class="btn">Github</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="card">
+
+          <div class="card-image">
+            <img :src="iasdle" alt="Project Image">
           </div>
 
           <div class="card-content">
@@ -86,43 +109,11 @@ import UiUx from '/src/assets/uiux.png';
             <h2>IASDLE Website Design & Development</h2>
 
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi
+              IASDLE is a modern, responsive organizational website developed to showcase its mission and activities with a clean design, structured content, and smooth user experience.
             </p>
 
             <div class="buttons">
-              <a href="#" class="btn">Live Website</a>
-              <a href="#" class="btn">Github</a>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="card">
-
-          <div class="card-image">
-            <img :src="UiUx" alt="Project Image">
-          </div>
-
-          <div class="card-content">
-
-            <div class="tags">
-              <span>UI/UX Design</span>
-              <span>Wordpress Development</span>
-            </div>
-
-            <h2>IASOLE Website Design & Development</h2>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi
-            </p>
-
-            <div class="buttons">
-              <a href="#" class="btn">Live Website</a>
-              <a href="#" class="btn">Github</a>
+              <a href="https://iasdle.com/" class="btn">Live Website</a>
             </div>
 
           </div>
@@ -161,7 +152,7 @@ section {
 .heading {
   padding-top: 20px;
   font-family: "Iceland", sans-serif;
-  font-size: clamp(2rem, 7vw, 4rem);
+  font-size: clamp(3rem, 7vw, 4rem);
   font-weight: 400;
 }
 
@@ -183,7 +174,7 @@ section {
   border-radius: 12px;
   overflow: hidden;
   background: #121212;
-  box-shadow: 0 0 0 1px rgba(255, 244, 244, 0.08);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.185);
   transition: all 0.4s ease;
   cursor: pointer;
 }
