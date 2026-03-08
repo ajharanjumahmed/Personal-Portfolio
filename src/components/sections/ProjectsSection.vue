@@ -226,8 +226,9 @@ section {
 
 .card-content h2 {
   font-family: "Iceland", sans-serif;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 400;
+  line-height: 35px;
   color: white;
   margin-bottom: 12px;
 }

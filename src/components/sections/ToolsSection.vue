@@ -3,7 +3,11 @@ import Java from '/src/assets/logos/Frame 5.png';
 import C from '/src/assets/logos/image 7.png';
 import cplus from '/src/assets/logos/image 8.png';
 import python from '/src/assets/logos/image 9.png';
-import htmlCss from '/src/assets/logos/image 10.png';
+import htmlCss from '/src/assets/logos/htmlCssJs.png';
+import vuejs from '/src/assets/logos/vuejs.png';
+import figma from '/src/assets/logos/Figma-Logo.jpg';
+import phplogo from '/src/assets/logos/phplogo.png';
+import laravellogo from '/src/assets/logos/laravellogo.png';
 </script>
 
 <template>
@@ -36,6 +40,26 @@ import htmlCss from '/src/assets/logos/image 10.png';
         <div class="logo-card">
           <div class="logo">
             <img :src="htmlCss" alt="company logo" />
+          </div>
+        </div>
+        <div class="logo-card">
+          <div class="logo">
+            <img :src="vuejs" alt="company logo" />
+          </div>
+        </div>
+        <div class="logo-card">
+          <div class="logo">
+            <img :src="phplogo" alt="company logo" />
+          </div>
+        </div>
+        <div class="logo-card">
+          <div class="logo">
+            <img :src="laravellogo" alt="company logo" />
+          </div>
+        </div>
+        <div class="logo-card">
+          <div class="logo">
+            <img :src="figma" alt="company logo" />
           </div>
         </div>
       </div>
@@ -118,7 +142,7 @@ section {
 
 @media (max-width: 480px) {
   .heading h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .logo-card {

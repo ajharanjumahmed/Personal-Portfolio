@@ -264,7 +264,7 @@ section {
 .heading {
   padding-top: 20px;
   font-family: "Iceland", sans-serif;
-  font-size: clamp(2rem, 7vw, 4rem);
+  font-size: clamp(2.5rem, 7vw, 4rem);
   font-weight: 400;
   text-align: center;
 }
@@ -408,7 +408,7 @@ section {
   }
 
   .button{
-    font-size: 14px;
+    font-size: 12px;
   }
 
   #secondHeading{

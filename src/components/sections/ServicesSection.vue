@@ -196,7 +196,7 @@ section {
   }
 
   .button p{
-    font-size: 10px;
+    font-size: 12px;
   }
 
 }
