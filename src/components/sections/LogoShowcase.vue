@@ -5,7 +5,7 @@ import logo3 from '/src/assets/logos/IASDLE-White-Logo.png';
 import logo4 from '/src/assets/logos/nextstop-logo-transparent-1.png';
 
 
-const logos = [logo1, logo2, logo3, logo4, logo1, logo2, logo3, logo4]
+const logos = [logo1, logo2, logo3, logo4]
 </script>
 
 <template>
@@ -47,12 +47,17 @@ const logos = [logo1, logo2, logo3, logo4, logo1, logo2, logo3, logo4]
 
 .logo-wrapper {
   display: flex;
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
 
 .logo-track {
   display: flex;
-  gap: 100px;
-  animation: scroll 15s linear infinite;
+  gap: 80px;
+  width: max-content;
+  animation: scroll 14s linear infinite;
+  will-change: transform;
+  transform: translate3d(0,0,0);
 }
 
 .logo {
@@ -75,23 +80,24 @@ const logos = [logo1, logo2, logo3, logo4, logo1, logo2, logo3, logo4]
 
 
 @keyframes scroll {
-  from {
-    transform: translateX(0);
+ from {
+    transform: translate3d(0,0,0);
   }
   to {
-    transform: translateX(-50%);
+    transform: translate3d(-50%,0,0);
   }
 }
 
 
 @media (max-width: 768px) {
+
   .logo-track {
-    gap: 40px;
-    animation-duration: 5s;
+    gap: 30px;
+    animation: scroll 13s linear infinite;
   }
 
   .logo img {
-    height: 40px;
+    height: 38px;
   }
 }
 
