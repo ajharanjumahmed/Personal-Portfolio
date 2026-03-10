@@ -1,5 +1,7 @@
 <script setup>
-import { ref } from 'vue'
+import Logo from "/src/assets/300ppi/Ajhar Logo.png";
+
+import { ref } from 'vue';
 
 
 const isMenuOpen = ref(false)
@@ -18,7 +20,7 @@ const closeMenu = () => {
 <template>
   <section>
     <div class="parent">
-      <h1 class="logo">Ajhar</h1>
+      <img :src="Logo" alt="ajhar logo">
       <div class="menu">
         <a href="#Services">Services</a>
         <a href="#Projects">Projects</a>
@@ -61,6 +63,10 @@ const closeMenu = () => {
     margin-right: 7rem;
     height: 4rem;
     margin-top: 1.2rem;
+  }
+
+  .parent img{
+    max-height: 40px;
   }
 
   .logo{
