@@ -33,8 +33,8 @@ const closeMenu = () => {
           </i>
         </div>
         <div class="button">
-          <a href="https://drive.google.com/file/d/1PXCpQfg1ORjeDI3EEDmHefPhXs8jON6d/view?usp=sharing">Resume</a>
-        </div>
+          <a href="https://drive.google.com/file/d/1mUygGrxhNa-JyQygu0xNiMrzaxF3249p/view?usp=sharing">Resume</a>
+        </div>    
       </div>
     </div>
     
