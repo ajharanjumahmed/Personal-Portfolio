@@ -5,7 +5,7 @@ import logo3 from '/src/assets/logos/IASDLE-White-Logo.png';
 import logo4 from '/src/assets/logos/nextstop-logo-transparent-1.png';
 
 
-const logos = [logo1, logo2, logo3, logo4]
+const logos = [logo1, logo2, logo3, logo4, logo1, logo2, logo3, logo4]
 </script>
 
 <template>
