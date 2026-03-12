@@ -13,7 +13,7 @@
         <p class="footer-bio">
           I'm a Computer Science student, programmer, and UI/UX designer passionate about building functional, user-centered digital solutions. I combine clean code with intuitive design to create simple, and impactful solutions.
         </p>
-        <a href="https://drive.google.com/file/d/1DeMh_UEBVo8RsQx-xgYHgOsh1wZkDmGB/view?usp=sharing" class="resume-btn">📄 Resume</a>
+        <a href="https://drive.google.com/file/d/13GAtCOvU3_965niwT-sp30rogrzBGp10/view?usp=sharing" class="resume-btn">📄 Resume</a>
       </div>
 
       
